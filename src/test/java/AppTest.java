@@ -4,6 +4,6 @@ class AppTest {
 
     @Test
     void test() {
-        System.out.println("Test Passed!");
+        throw new RuntimeException("Test Failed!");
     }
 }
